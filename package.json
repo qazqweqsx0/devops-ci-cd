@@ -1,0 +1,36 @@
+{
+  "name": "devops-ci-cd",
+  "version": "1.0.0",
+  "description": "Node.js app with ESLint, Jest, PostgreSQL and GHCR",
+  "main": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qazqweqsx0/devops-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qazqweqsx0/devops-ci-cd/issues"
+  },
+  "homepage": "https://github.com/qazqweqsx0/devops-ci-cd#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  },
+  "private": "true"
+}
